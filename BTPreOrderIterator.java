@@ -1,3 +1,5 @@
+// GFG postorder traversal
+
 import java.util.*;
 
 class Node {
@@ -26,7 +28,7 @@ class PreOrderIterator {
 		this.stack.push(root);
 	}
 
-	public Node getNext() { // data of node >=1
+	public Node getNext() {
 		return stack.peek();
 	}
 
