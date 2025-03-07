@@ -23,7 +23,7 @@ class BSTPreOrderIterator {
 
 	private Stack<Node> stack;
 
-	public BSTPostOrderIterator(Node root) {
+	public BSTPreOrderIterator(Node root) {
 
 		this.stack = new Stack<>();
 		this.stack.push(root);
