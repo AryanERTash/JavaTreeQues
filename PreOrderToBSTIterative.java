@@ -51,6 +51,8 @@ class Solution {
 
 		int pointer = 0;
 
+		// start by initializing head and stack
+
 		TreeNode head = new TreeNode(preorder[pointer++]);
 		Pair headPair = new Pair(head, Integer.MAX_VALUE);
 

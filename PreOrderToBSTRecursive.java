@@ -47,6 +47,8 @@ class Solution {
 	public TreeNode bstFromPreorder(int[] preorder) {
 		pointer = 0;
 
+		
+
 		return helper(preorder, Integer.MAX_VALUE);
 
 	}

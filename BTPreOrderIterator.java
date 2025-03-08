@@ -97,6 +97,10 @@ class Tree {
 
 		PreOrderIterator itr = new PreOrderIterator(root);
 
+		//on average for each getnext the average time is O(1)
+		// for n nodes time is proportional to O(n)
+		// space := O(h) h = height of tree
+
 		
 		while(itr.hasNext()) {
 			Node curr = itr.getNext();
