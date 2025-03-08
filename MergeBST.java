@@ -29,7 +29,7 @@ class BSTPreOrderIterator {
 		this.stack.push(root);
 	}
 
-	public boolean hasNext() {
+	public boolean hasNexcdt() {
 		return !stack.empty();
 	}
 
