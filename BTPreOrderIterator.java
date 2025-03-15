@@ -41,7 +41,7 @@ class PreOrderIterator {
 
 	private boolean canPop(Node current, Node top) {
 		/*
-		 * A node can be copped if it is either right of some node or left
+		 * A node can be popped if it is either right of some node or left
 		 * of some node and does not have a right child
 		 */
 		return current == top.right || (current == top.left && top.right == null);
@@ -86,9 +86,9 @@ class PreOrderIterator {
 
 }
 
-class Tree {
+class Solution {
 	// Return a list containing the Preorder traversal of the given tree
-	ArrayList<Integer> preOrder(Node root) {
+	static ArrayList<Integer> preorder(Node root) {
 		/*
 		 * Function from GFG prractice
 		 * https://www.geeksforgeeks.org/problems/preorder-traversal-iterative/1
